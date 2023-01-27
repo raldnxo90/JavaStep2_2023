@@ -5,6 +5,8 @@ public class Guest {
 	// 필드
 	private String name;
 	private String gender;
+	static String Point = "발리";
+	
 
 	public String getName() {
 		return name;
@@ -19,6 +21,7 @@ public class Guest {
 	}
 
 	public void setGender(String gender) {
+				
 		this.gender = gender;
 	}
 
